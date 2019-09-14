@@ -2,7 +2,7 @@ import telebot
 import json
 from difflib import get_close_matches
 
-bot = telebot.TeleBot('910173641:AAExcjvXF4i7-gn-xeQZ7K9d9WbtpaWwHfc')
+bot = telebot.TeleBot('')
 
 data = json.load(open('data.json'))
 
